@@ -1,0 +1,112 @@
+// VALZZ FFA INDONESIA - Core Defines
+// Production-Ready Code
+
+#define VALZZ_VERSION "1.0.0"
+#define VALZZ_NAME "VALZZ FFA INDONESIA"
+
+// Player Settings
+#define MAX_PLAYERS 200
+#define MAX_ACCOUNTS 5000
+#define SESSION_TIMEOUT 3600
+
+// Weapon IDs
+#define WEAPON_DEAGLE 24
+#define WEAPON_SILENCED 23
+#define WEAPON_COLT45 22
+#define WEAPON_MP5 29
+#define WEAPON_TEC9 32
+#define WEAPON_SHOTGUN 25
+#define WEAPON_SAWNOFF 26
+#define WEAPON_COMBAT_SHOTGUN 27
+#define WEAPON_AK47 30
+#define WEAPON_M4 31
+#define WEAPON_SNIPER 34
+#define WEAPON_KNIFE 25
+
+// Dialogs
+#define DIALOG_LOGIN 1001
+#define DIALOG_ACCOUNT_INFO 1002
+#define DIALOG_CONFIRM_ENTRY 1003
+#define DIALOG_SPAWN_SELECT 1004
+
+// Timers
+#define TIMER_ANTICHEAT 5000
+#define TIMER_SAVE_PLAYER 30000
+#define TIMER_LEADERBOARD 10000
+#define TIMER_EVENT_CHECK 60000
+
+// Colors
+#define COLOR_MAIN_NEON 0x00FF00FF
+#define COLOR_ACCENT 0xFF00FFFF
+#define COLOR_ERROR 0xFF0000FF
+#define COLOR_SUCCESS 0x00FF00FF
+#define COLOR_INFO 0x00FFFFFF
+#define COLOR_WARNING 0xFFFF00FF
+
+// Positions
+#define LOBBY_X 1958.3783
+#define LOBBY_Y 1343.1572
+#define LOBBY_Z 15.3746
+#define LOBBY_ANGLE 270.0
+#define LOBBY_INTERIOR 0
+#define LOBBY_WORLD 0
+
+// Admin Levels
+#define ADMIN_NONE 0
+#define ADMIN_HELPER 1
+#define ADMIN_MODERATOR 2
+#define ADMIN_ADMIN 3
+#define ADMIN_SENIOR 4
+#define ADMIN_OWNER 5
+#define ADMIN_FOUNDER 6
+
+// Starter Money & Weapons
+#define STARTER_MONEY 1000
+#define STARTER_DEAGLE_AMMO 70
+
+// Kill Rewards
+#define REWARD_NORMAL_KILL 500
+#define REWARD_HEADSHOT 1000
+#define REWARD_KNIFE_KILL 1500
+#define REWARD_KILL_STREAK 2000
+
+// Safezone Radius
+#define SAFEZONE_RADIUS 50.0
+
+// EXP System
+#define EXP_PER_KILL 100
+#define EXP_PER_HEADSHOT 200
+#define EXP_LEVEL_UP 1000
+
+// Password Hashing
+#define PASSWORD_MIN_LENGTH 8
+#define PASSWORD_MAX_LENGTH 32
+
+// Session
+#define SESSION_HASH_LENGTH 40
+#define SESSION_TOKEN_LENGTH 32
+
+// Matchmaking
+#define MATCH_QUEUE_TIMEOUT 120000
+#define MATCH_READY_CHECK_TIME 30000
+
+// Anti-Cheat Thresholds
+#define CHEAT_SCORE_MAX 100
+#define CHEAT_SCORE_WARN 60
+#define CHEAT_SCORE_KICK 80
+#define CHEAT_SCORE_BAN 95
+
+// Vehicle IDs
+#define VEHICLE_SULTAN 555
+#define VEHICLE_ELEGY 562
+#define VEHICLE_BUFFALO 402
+#define VEHICLE_JESTER 559
+#define VEHICLE_BULLET 541
+#define VEHICLE_TURISMO 451
+#define VEHICLE_NRG 522
+
+// Checkpoints
+#define CP_LOBBY 1
+#define CP_SPAWN 2
+#define CP_MATCH_ARENA 3
+#define CP_GARAGE 4
