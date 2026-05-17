@@ -1,0 +1,7 @@
+driver = mysql
+host = localhost
+user = samp_user
+password = samp_password
+database = valzz_ffa
+port = 3306
+pool_size = 4
