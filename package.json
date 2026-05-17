@@ -1,0 +1,15 @@
+{
+  "name": "valzz-ffa-indonesia",
+  "version": "1.0.0",
+  "description": "Modern SA-MP Open World FFA Server 2026",
+  "main": "valzz_ffa.amx",
+  "scripts": {
+    "install": "bash install.sh",
+    "compile": "bash compile.sh",
+    "start": "bash start.sh",
+    "setup": "bash install.sh && bash compile.sh"
+  },
+  "keywords": ["samp", "ffa", "gamemode", "valzz"],
+  "author": "Valzz Team",
+  "license": "Proprietary"
+}

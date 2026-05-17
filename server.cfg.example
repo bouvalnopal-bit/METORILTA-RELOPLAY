@@ -1,0 +1,16 @@
+echo "Starting VALZZ FFA INDONESIA Server..."
+port 7777
+hostname VALZZ FFA INDONESIA [OPEN WORLD FFA]
+gamemode0 valzz_ffa
+filerename valzz_ffa valzz_ffa
+filterscripts npc_system safezone_system
+maxplayers 200
+timeout 10000
+stream_rate 1000
+stream_distance 200.0
+weather 10
+weatherid 10
+gravity 0.008
+killdelay 0
+network_buffer_size 16384
+logtimeformat [%H:%M:%S]
